@@ -38,8 +38,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println(decode, useHex)
-
 	args := os.Args[len(os.Args)-flag.NArg():]
 	if decode {
 		for _, arg := range args {
